@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PPsh beauty store</title>
+    <title>PPsh's Beauty Store</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
+            background-image: url('image.png'); /* Cosmetic-themed background image */
+            background-size: cover;
+            background-position: center;
             color: #333;
             text-align: center;
             padding: 30px;
         }
         .header {
-            background-color: #ffa500;
+            background-color: rgba(255, 165, 0, 0.8); /* Semi-transparent orange */
             padding: 15px;
             color: white;
+            border-radius: 10px;
         }
         .products {
             display: flex;
@@ -25,7 +29,7 @@
         .product {
             margin: 20px;
             padding: 20px;
-            background-color: #fff;
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
             border: 1px solid #ddd;
             border-radius: 10px;
             width: 250px;
@@ -55,29 +59,27 @@
 </head>
 <body>
     <div class="header">
-        <h1>Welcome to ppsh beauty Store</h1>
+        <h1>Welcome to PPsh's Beauty Store</h1>
     </div>
     <div class="products">
         <div class="product">
             <img src="https://m.media-amazon.com/images/I/61EKciV98IL._AC_SX569_.jpg" alt="baby-clothes-1">
             <h2>miniGray</h2>
             <p>Price: ￥2,499</p>
-            <button onclick="window.open('https://amzn.to/3WShZe3')">buy from amazon!</button>
+            <button class="button" onclick="window.open('https://amzn.to/3WShZe3')">Buy from Amazon!</button>
         </div>
         <div class="product">
             <img src="https://m.media-amazon.com/images/I/71FMoiOt4zL._AC_SX569_.jpg" alt="Baby Clothes 2">
             <h2>Litchii Guusii</h2>
             <p>Price: ￥2,224</p>
-            <button onclick="window.open(https://amzn.to/46YqAkk')">buy from amazon!</button>
+            <button class="button" onclick="window.open('https://amzn.to/46YqAkk')">Buy from Amazon!</button>
         </div>
         <div class="product">
             <img src="https://m.media-amazon.com/images/I/51x0Z0mjFXL._AC_SX569_.jpg" alt="Baby Clothes 3">
             <h2>Baby koi</h2>
             <p>Price: ￥2,280</p>
-            <button onclick="window.open('https://amzn.to/3WMLxdj')">buy from amazon!</button>
+            <button class="button" onclick="window.open('https://amzn.to/3WMLxdj')">Buy from Amazon!</button>
         </div>
     </div>
 </body>
 </html>
-
-:
